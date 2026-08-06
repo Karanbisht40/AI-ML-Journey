@@ -2,7 +2,6 @@
 <html>
 <head>
   <meta charset="UTF-8" />
-  <title>AI & Machine Learning Journey</title>
 </head>
 <body>
   <h1 align="center" style="font-family: Arial, sans-serif; color: #1f6feb;">🤖 AI & Machine Learning Journey</h1>
