@@ -7,7 +7,7 @@ model = joblib.load('KNN_heart_model.pkl')
 scaler = joblib.load('scaler_heart.pkl')
 expected_columns =joblib.load('feature_columns_heart.pkl')
 
-st.title("heart strokes prediction")
+st.title("Heart Strokes Prediction ❤️")
 st.markdown("provide the following details")
 Age =st.slider("Age",18,100,40) 
 Sex = st.selectbox("Sex",["M","F"])
