@@ -28,50 +28,142 @@
   <ul style="font-family: Arial, sans-serif; line-height: 1.7;">
     <li><strong>Python programming</strong> for data science and automation</li>
     <li><strong>NumPy</strong> for arrays, indexing, and numerical operations</li>
-    <li><strong>Pandas</strong> for data cleaning, transformation, and analysis</li>
+    <li><strong>Pandas</strong> for data cleaning, transformation, and exploratory data analysis</li>
     <li><strong>Matplotlib & Seaborn</strong> for clear and attractive visualizations</li>
+    <li><strong>Plotly</strong> for interactive visualizations</li>
     <li><strong>Statistics</strong> for understanding data and drawing insights</li>
-    <li><strong>Projects</strong> such as IPL data analysis and exploratory notebooks</li>
+    <li><strong>Machine Learning Algorithms</strong> including:
+      <ul>
+        <li>Regression: Linear Regression</li>
+        <li>Classification: Logistic Regression, Decision Trees, SVM, Naive Bayes, KNN</li>
+        <li>Clustering: K-Means, DBSCAN</li>
+        <li>Ensemble Methods: Random Forest, Gradient Boosting</li>
+        <li>Dimensionality Reduction: PCA</li>
+        <li>Hyperparameter Tuning</li>
+      </ul>
+    </li>
+    <li><strong>Natural Language Processing</strong> including Tokenization, Stemming, Lemmatization, Named Entity Recognition, and Sentiment Analysis</li>
+    <li><strong>Real-world Projects</strong> such as IPL data analysis, Heart Disease Prediction, and Fake News Detection</li>
   </ul>
 
   <h2 style="color: #2563eb;">🧠 Skills in Progress</h2>
   <ul style="font-family: Arial, sans-serif; line-height: 1.7;">
-    <li>Data wrangling and cleaning</li>
-    <li>Exploratory data analysis</li>
-    <li>Visual storytelling with data</li>
-    <li>Statistics for real-world datasets</li>
-    <li>Machine learning foundations</li>
+    <li>Advanced machine learning techniques and model optimization</li>
+    <li>Deep learning and neural networks</li>
+    <li>Building production-ready ML applications</li>
+    <li>Advanced NLP techniques (Word Embeddings, LSTM, Transformers)</li>
+    <li>Time series analysis and forecasting</li>
   </ul>
 
   <h2 style="color: #2563eb;">📁 Repository Structure</h2>
   <pre style="background-color: #f8fafc; padding: 16px; border-radius: 8px; font-family: Consolas, monospace;">
 AI & ML/
-├── DataVisualization/
-│   ├── Matplotlib/
-│   └── Seaborn/
-├── NumPy/
-├── Pandas/
-├── Statistics/
-├── anaconda_projects/
+├── 📚 Fundamentals
+│   ├── NumPy/
+│   │   ├── Array_Indexing.ipynb
+│   │   ├── Array_Operations.ipynb
+│   │   ├── Arrays.ipynb
+│   │   ├── Exercises.ipynb
+│   │   └── Practice.ipynb
+│   ├── Pandas/
+│   │   ├── Dataframes.ipynb
+│   │   ├── PandasSeries.ipynb
+│   │   ├── MissingData.ipynb
+│   │   ├── GroupByAggregation.ipynb
+│   │   ├── MergingAndConcatination.ipynb
+│   │   ├── FeatureExtraction.ipynb
+│   │   ├── PivotTables.ipynb
+│   │   ├── Operations.ipynb
+│   │   ├── Countries.ipynb
+│   │   └── anime.csv
+│   └── Statistics/
+│       └── statistics.ipynb
+│
+├── 📊 Data Visualization
+│   └── DataVisualization/
+│       ├── Matplotlib/
+│       │   └── Matplotlib.ipynb
+│       ├── Seaborn/
+│       │   ├── CategoricalPlot.ipynb
+│       │   ├── DistributionPlot.ipynb
+│       │   ├── MatrixPlot.ipynb
+│       │   └── Plotly&cufflinks.ipynb
+│       └── Projects/
+│           ├── IPLcapstoneProject.ipynb
+│           └── IPL.csv
+│
+├── 🤖 Machine Learning
+│   ├── MachineLearning/
+│   │   ├── DataCleaning/
+│   │   │   ├── insurance.ipynb
+│   │   │   └── insurance.csv
+│   │   ├── EDA/
+│   │   │   ├── insurance.ipynb
+│   │   │   └── insurance.csv
+│   │   └── ScikitLearn/
+│   │       ├── LinearRegression.ipynb
+│   │       ├── LogistricRegression.ipynb
+│   │       ├── DecisionTree.ipynb
+│   │       ├── SVM.ipynb
+│   │       ├── NaiveBayes.ipynb
+│   │       ├── KNN.ipynb
+│   │       ├── Kmeans.ipynb
+│   │       ├── DBScan.ipynb
+│   │       ├── EnsembleLearning.ipynb
+│   │       ├── HyperParameterTurning.ipynb
+│   │       ├── PCADimension.ipynb
+│   │       ├── FordCarPrediction/
+│   │       │   ├── FordCar.ipynb
+│   │       │   └── ford.csv
+│   │       └── insurance_updated.csv
+│   │
+│   └── MLProjects/
+│       ├── heart.ipynb
+│       ├── app.py
+│       └── heart.csv
+│
+├── 📝 Natural Language Processing
+│   └── NLP/
+│       ├── Tokenization.ipynb
+│       ├── Text_PreProccessing_using_StopWords.ipynb
+│       ├── Stemming.ipynb
+│       ├── Lemmatization.ipynb
+│       ├── Part_of_speech_tagging.ipynb
+│       ├── NamedEntityRecognition.ipynb
+│       ├── BagOfWords.ipynb
+│       ├── TF_IDF.ipynb
+│       ├── sentiment_analysis.ipynb
+│       ├── FakeNewsPrediction/
+│       │   ├── FakeNews.ipynb
+│       │   ├── app.py
+│       │   └── train.csv
+│       └── train.txt
+│
+├── 🔧 Utilities
+│   └── anaconda_projects/
+│       └── db/
+│
 └── README.md
   </pre>
 
   <h2 style="color: #2563eb;">🚀 Current Focus</h2>
   <p style="font-family: Arial, sans-serif; line-height: 1.6;">
-    I am currently strengthening my understanding of statistics, building better analysis workflows, and preparing to explore machine learning concepts in a deeper way.
+    I am currently focused on mastering machine learning algorithms with Scikit-Learn, implementing real-world projects like Heart Disease Prediction and Fake News Detection, and exploring Natural Language Processing techniques for text analysis and classification.
   </p>
 
   <h2 style="color: #2563eb;">🎯 Next Goals</h2>
   <ul style="font-family: Arial, sans-serif; line-height: 1.7;">
-    <li>Learn machine learning algorithms with Scikit-Learn</li>
-    <li>Build predictive models on real datasets</li>
-    <li>Explore deep learning and neural networks</li>
-    <li>Create more polished and portfolio-ready projects</li>
+    <li>Deepen expertise in deep learning with TensorFlow and PyTorch</li>
+    <li>Build and deploy machine learning models as web applications</li>
+    <li>Explore advanced NLP with pre-trained models (BERT, GPT)</li>
+    <li>Master time series forecasting and analysis</li>
+    <li>Create comprehensive portfolio projects demonstrating end-to-end ML workflows</li>
+    <li>Contribute to open-source data science projects</li>
   </ul>
 
   <h2 style="color: #2563eb;">🛠️ Tools & Technologies</h2>
   <p style="font-family: Arial, sans-serif; line-height: 1.6;">
-    Python • Jupyter Notebook • NumPy • Pandas • Matplotlib • Seaborn • Plotly • Git • GitHub • VS Code
+    Python • Jupyter Notebook • NumPy • Pandas • Matplotlib • Seaborn • Plotly • Scikit-Learn • NLTK • Scikit-Image • Flask • Git • GitHub • VS Code
   </p>
 
   <hr />
